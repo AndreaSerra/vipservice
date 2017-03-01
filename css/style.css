@@ -1,0 +1,543 @@
+/* TEST	*/
+
+.beige{
+  background: beige;
+}
+
+.perimeter{
+  border: 2px solid red;
+}
+
+.wrap{
+  max-width: 700px;
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+.wrap2{
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+.wrap3{
+  max-width: 1270px;
+  margin: auto;
+  position: relative;
+}
+
+.relative{
+  position: relative;
+}
+
+.center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align:center;
+  margin: auto;
+}
+
+.center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align:center;
+  margin: auto;
+}
+
+.center-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align:center;
+  margin: auto;
+}
+
+
+/* LAYOUT	*/
+html{
+	height: 100%;
+}
+
+.fix{
+  position:fixed;
+}
+
+.no-margin {
+margin:0px;}
+
+.no-padding{
+padding:0px;}
+
+.no-border{
+border-color:transparent;}
+
+.no-shadow{
+	box-shadow: 0px, 0px, 0px;
+}
+
+.no-background{
+	background-color: transparent;
+}
+
+.max-width{
+max-width:100%;
+height:auto;}
+
+.auto-width{
+  width: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.darker-background{
+background-color:#1f1f1f;}
+
+.dark-background{
+background-color:#2F2F2F;}
+
+.grey-background{
+background-color:#555; }
+
+.light-background{
+background-color:#F8F8F8 }
+
+.button{
+  cursor: pointer;
+}
+
+.dark-border{
+  border: 1px solid #4c90ff;
+  margin: 0px;
+}
+
+/* FONTS	*/
+
+.fredoka{
+font-family: 'Fredoka One', cursive;
+}
+
+@font-face {
+	font-family: "Zona Pro Bold";
+	src: url('../fonts/ZonaPro-Bold.otf') format('opentype');
+}
+.zonapro-bold {
+font-family: 'Zona Pro Bold', sans-serif;
+}
+
+@font-face {
+	font-family: "Zona Pro Thin";
+	src: url('../fonts/ZonaPro-Thin.otf') format('opentype');
+}
+.zonapro-thin {
+font-family: 'Zona Pro Thin', sans-serif;
+}
+
+
+@font-face {
+	font-family: "Opensans";
+	src: url('../fonts/OpenSans-Regular.ttf') format('opentype');
+}
+
+.opensans {
+font-family: 'Open Sans', sans-serif;
+}
+
+.opensans-bold{
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+
+.opensans-justify{
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
+font-size: 16px;
+}
+
+.justify{
+text-align: justify;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+/* FONTS	*/
+
+
+
+
+
+
+/* ELEMENTS	*/
+.nav{
+  width: 100%;
+  height: 70%;
+  min-height: 320px;
+  background-color: #2d6cdf;
+}
+
+.home-title {
+color: #F8F8F8;
+margin-bottom: 10px;
+text-align: center;
+text-shadow: 0px 0px 1px #A1A1A1;
+font-size: 90px;
+}
+
+.home-text {
+color: #F8F8F8;
+text-align: center;
+text-shadow: 0px 0px 1px #A1A1A1;
+font-size: 22px;
+}
+
+.home-fix{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align:center;
+  margin: auto;
+  width: 100%;
+}
+
+.page-title {
+color: #1f1f1f;
+text-align: center;
+font-size: 60px;
+}
+
+.boxLeft{
+  height: 150px;
+  width: 150px;
+  /* margin-bottom: 0px;
+  border: 2px solid black;             */
+  border-radius: 0px;
+}
+
+.logo1{
+    height: 70%;
+    width: 200px;
+    border: 0px solid white;
+    border-radius: 0px;
+    position: relative;
+    top: 0%;
+    text-align: center;
+    background-image: url('../img/vip-logo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.logo2{
+    height: 90px;
+    width: 80px;
+    border: 0px solid white;
+    border-radius: 0px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    background-image: url('../img/bosch-logo.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.boxRight{
+  height: 150px;
+  width: 150px;
+  /* margin-bottom: 0px;
+  border: 2px solid black;             */
+  border-radius: 0px;
+  cursor: pointer;
+
+}
+
+.navlink{}
+
+
+.contact{
+  height:auto;
+  margin: 10px;
+  margin-bottom: 35px;
+
+}
+
+.form{
+  width: auto;
+}
+
+.formName{
+  height:50px;
+  width: 95%;
+  margin: auto;
+  border: 3px solid #1f1f1f;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.formEmail{
+  height:50px;
+  width: 95%;
+  margin: auto;
+  border: 3px solid #1f1f1f;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.formText{
+  height:150px;
+  width: 95%;
+  margin: auto;
+  border: 3px solid #1f1f1f;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.formSend{
+  height:50px;
+  width: 25%;
+  margin: auto;
+  border: 3px solid #1f1f1f;
+  background-color: #F8F8F8;
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formSpan{
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+.footer{
+  height: 20px;
+  width: 200px;
+  margin-top: 25px;
+  background-image:url('../img/footer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* ELEMENTS	*/
+
+
+
+
+
+/* HAMBURGER MENU	*/
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.menuList {
+}
+
+.menuOpen {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #1f1f1f;
+}
+
+.menu{}
+
+.closeMenu{
+  z-index: -1;
+}
+
+.ba{
+  height: 100px;
+  width: auto;
+  margin: auto;
+
+  position: relative;
+  text-align: center;
+}
+
+
+li a {
+    display: block;
+    color: #F8F8F8;
+    padding: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    border-top: 0px solid #F8F8F8;
+}
+
+/* Change the link color on hover */
+.menuList:hover {
+    background-color: #555;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+
+.cerchio:hover {
+  height: 220px;
+  width: 220px;
+  border-radius: 110px;
+  border: 3px solid #555;
+  cursor: pointer;
+}
+
+/*
+.cerchioabout:hover {
+  height: 220px;
+  width: 220px;
+  border-radius: 110px;
+  border: 7px solid #555;
+  cursor: pointer;
+}  */
+
+
+.formSend:hover {
+  height: 55px;
+  width: 27%;
+  border: 3px solid #555;
+  background-color: #555;
+  color: #F8F8F8;
+
+}
+
+.iconContact:hover{
+  margin-top: 35px;
+  height: 80px;
+  width: 80px;
+}
+
+.button:hover{
+  background-color: #4c90ff;
+  background-image: none;
+}
+
+.home-button:hover{
+  background-color: #4c90ff;
+  background-image: none;
+  font: white;
+}
+
+.home-button:hover .home-text {
+ border-bottom: 2px solid white;
+}
+
+a:link, a:focus {
+  text-decoration: none;
+  border: 0px;
+}
+
+a:visited {
+  text-decoration: none;
+  border: 0 !important;
+}
+
+a:active {
+  text-decoration: none;
+  border: 0px;
+}
+
+
+
+
+/* IMG	*/
+  .image1{
+    background-image: url('../img/chisiamo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: cover;
+    background-color: #1f1f1f;
+  }
+
+  .image2{
+    background-image: url('../img/servizi.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: cover;
+    background-color: #1f1f1f;
+  }
+
+  .image3{
+    background-image: url('../img/dove.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: cover;
+    background-color: #1f1f1f;
+  }
+
+  .image4{
+    background-image: url('../img/contatti.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: cover;
+    background-color: #1f1f1f;
+  }
+/* IMG	*/
+
+/* COLORS	*/
+.dark-blue{
+  background-color: #2d6cdf;
+}
+
+.light-blue{
+  background-color: #4c90ff;
+}
+
+.light-grey{
+  background-color: #f9f7f7;
+}
+.light-grey-text{
+  color: #f9f7f7;
+}
+
+
+
+#dbe2ef
+#f9f7f7
+
+#65799b
+
+#f7fbfc
+#d6e6f2
+#b9d7ea
+#769fcd
+
+#e4f1fe
+#8dc6ff
+#22313f
+#34495e
+
+#4d606e
+#3fbac2
+#d3d4d8
+#f5f5f5
+/* COLORS	*/
